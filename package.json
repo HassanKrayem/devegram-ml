@@ -1,0 +1,34 @@
+{
+  "name": "devegram-ml",
+  "version": "0.0.0",
+  "description": "Devegram multi-language translation for web development",
+  "main": "./src/minified.js",
+  "unpkg": "./src/minified.js",
+  "module": "./src/minified.module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HassanKrayem/devegram-ml.git"
+  },
+  "files": [
+  "src/minified.js"
+ ],
+ "keywords": [
+    "vue",
+    "vue-ml",
+    "vue-multilanguage",
+    "vue-package",
+    "translation",
+    "multi-language",
+    "web-translation",
+    "web ml"
+  ],
+  "author": "Hassan Youssef Krayem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HassanKrayem/devegram-ml/issues"
+  },
+  "homepage": "https://github.com/HassanKrayem/devegram-ml.git#readme"
+}

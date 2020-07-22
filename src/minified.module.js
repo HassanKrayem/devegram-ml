@@ -1,0 +1,1 @@
+const ml={lang:null,langs:{},get:function(n,s){return this.langs[this.lang][n]||s||console.error("Devegram ML: Missing Translations for ",n)||null},hasLang:function(n){return this.langs.hasOwnProperty(n)},hasTrans:function(n){return this.langs[this.lang].hasOwnProperty(n)},addLang:function(n,s){this.langs[n]=s},setLang:function(n){this.lang=n}};export default ml;
